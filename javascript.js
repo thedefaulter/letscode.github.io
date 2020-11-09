@@ -33,7 +33,7 @@ function signup(){
 	else{
     emailTextBox.style.backgroundColor = "red";
     alert("Incorrect E-mail");
-    window.location = "login.htm";
+    window.location = "courses.htm";
     return false;
   }
 }
