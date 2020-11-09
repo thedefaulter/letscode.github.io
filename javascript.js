@@ -28,6 +28,7 @@ function signup(){
 	{
 		emailTextBox.style.backgroundColor = "green";
 		window.location = "courses.htm";
+		return true;
 	}
 	else{
     emailTextBox.style.backgroundColor = "red";
