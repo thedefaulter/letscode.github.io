@@ -27,13 +27,8 @@ function signup(){
 	if(emailMatch.test(email))
 	{
 		emailTextBox.style.backgroundColor = "green";
-		window.location = "courses.htm";
-		return true;
 	}
 	else{
     emailTextBox.style.backgroundColor = "red";
     alert("Incorrect E-mail");
-    window.location = "courses.htm";
-    return false;
-  }
 }
